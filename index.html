@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy Birthday Sakshi</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <canvas id="balloonsCanvas"></canvas>
+  <div class="background-text">Sakshi</div>
+  <div class="content">
+    <h1>Happy Birthday, Sakshi! 🎉</h1>
+    <div class="cake">
+      <img src="cake.gif" alt="Cake Animation" />
+    </div>
+    <button class="surprise-btn" onclick="showSurprise()">🎁 Open Surprise</button>
+  </div>
+  <div id="popup" class="popup">
+    <div class="popup-content">
+      <h2>Wishing you love, laughter & endless happiness! 💖</h2>
+      <button onclick="closeSurprise()">Close</button>
+    </div>
+  </div>
+  <audio autoplay loop>
+    <source src="romantic.mp3" type="audio/mp3" />
+  </audio>
+  <script src="script.js"></script>
+</body>
+</html>
